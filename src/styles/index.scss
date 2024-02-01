@@ -1,0 +1,27 @@
+@import "reset";
+@import "fonts";
+@import "part1";
+@import "part2";
+@import "part3";
+
+
+:root {
+  --color1: hsl(259, 100%, 65%);
+  --color2: hsl(0, 100%, 67%);
+  --color3: hsl(0, 0%, 100%);
+  --color4: hsl(0, 0%, 94%);
+  --color5: hsl(0, 0%, 86%);
+  --color6: hsl(0, 1%, 44%);
+  --color7: hsl(0, 0%, 8%);
+}
+
+html, body {
+  background-color: var(--color4);
+  font-family: Poppin700;
+  font-size: 15px;
+  font-weight: bold;
+  overflow-x: hidden;
+  color: var(--color6);
+  letter-spacing: 2.5px;
+  padding-bottom: 80px;
+}

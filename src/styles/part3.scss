@@ -1,0 +1,40 @@
+.part3 {
+
+  margin: 5px 0 0 0;
+
+  h1 {
+    color: black;
+    letter-spacing: .05px;
+    font-family: Poppin800i;
+    line-height: 102px;
+    font-size: 102px;
+    margin: 0 0 12px 0;
+  }
+  span {
+    margin: 0 -3px 0 2px;
+    color: var(--color1);
+    letter-spacing: 16px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .part3 {
+    h1 {
+      font-size: 70px;
+    }
+  }
+}
+@media only screen and (max-width: 560px) {
+  .part3 {
+    h1 {
+      font-size: 35px;
+    }
+  }
+}
+@media only screen and (max-width: 340px) {
+  .part3 {
+    h1 {
+      font-size: 28px;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.separation {
+  display: flex;
+  align-items: center;
+
+  .trait {
+    width: 633px;
+    height: 2px;
+    background-color: var(--color5);
+    opacity: .7;
+  }
+  img {
+    width: 45px;
+    height: 45px;
+    background-color: var(--color1);
+    padding: 26px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+
+
+@media only screen and (max-width: 829px) {
+  .separation {
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .separation .trait {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .separation {
+    margin-top: -20px;
+  }
+}
